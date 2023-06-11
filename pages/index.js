@@ -17,7 +17,7 @@ const Home = () => {
             </a>
             <div className='w-full  mdx:hidden p-4'>
               <a href="/">
-                <img src="/hero-banner-2.png" className="w-full" />
+                <img src="/hero-banner.png" className="w-full" />
               </a>
             </div>
             <div className="line flex flex-col text-base font-semibold xs:text-2xl sdm:text-2xl sm:gap-3 md:text-3xl mdx:text-4xl ">
