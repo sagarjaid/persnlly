@@ -23,7 +23,7 @@ const Home = () => {
             <div className="line flex flex-col text-base font-semibold xs:text-2xl sdm:text-2xl sm:gap-3 md:text-3xl mdx:text-4xl ">
               <span>Convert your Linkedin profile</span>
               <div className='flex gap-1'>
-                <span>into</span>
+                <span>into a</span>
                 <span className="text-rose-600">
                   <Typewriter
                     options={{
@@ -40,8 +40,8 @@ const Home = () => {
 
             </div>
             <div className=" flex flex-col gap-1 text-xs sm:text-base">
-              <p>✓ Build webiste in 30 Seconds</p>
-              <p>✓ Add custom domain</p>
+              <p>✓ Build a website in 30 Seconds</p>
+              <p>✓ Add a custom domain</p>
               <p>✓ 5+ UI templates to choose from</p>
               <p>✓ SEO friendly</p>
               <p>✓ Superfast Blog</p>
