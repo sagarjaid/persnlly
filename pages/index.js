@@ -9,13 +9,13 @@ const Home = () => {
         title="Persnlly - Convert your Linkedin profile to Personal Website"
         description="Convert your Linkedin profile to Personal Website/blog in 30 seconds."
       />
-      <main>
+      <main className='px-4'>
         <div className="m-auto flex max-w-7xl items-start pt-10 mdx:pt-20 h-screen">
           <div className="flex flex-col justify-between gap-6 p-4 w-full">
             <a href="/">
               <img src="/persnlly-logo.png" className="w-[100px] mdx:pb-6" />
             </a>
-            <div className='w-full  mdx:hidden p-4'>
+            <div className='w-full  mdx:hidden'>
               <a href="/">
                 <img src="/hero-banner.png" className="w-full" />
               </a>
@@ -78,7 +78,7 @@ const Home = () => {
         <div className='m-auto flex max-w-7xl gap-2 flex-col p-4 relative bottom-14 text-xs'>
           <div className='flex gap-2 items-center'>
             <a href="https://www.linkedin.com/in/sagarjaid/" target='_blank' className="">
-              Pay now & support the project as early adaptor (coming soon)
+              Pay now & support project as early adaptor
             </a>
             <span>|</span>
             <a href="https://www.linkedin.com/in/sagarjaid/" target='_blank'>

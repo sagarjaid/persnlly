@@ -29,6 +29,8 @@ const SEOMeta = (props) => {
       />
       <link rel="icon" href="https://persnlly.com/favicon.png" />
 
+      <meta name="google-site-verification" content="VVz-UEHUoHSFHbrn9z5b5Hqq91IE1mO9_oJcrbW2ydI" />
+
     </Head>
   );
 };
