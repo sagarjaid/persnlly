@@ -48,7 +48,7 @@ const Home = () => {
             </div>
 
             <div className='flex flex-col justify-center gap-1'>
-              <div className="flex w-fit items-center justify-around rounded-full gap-2 bg-blue-600 p-2 px-4	text-white shadow-sm hover:bg-rose-500 cursor-pointer ">
+              <div onClick={() => window.location.href = 'https://tally.so/r/wb9YW6'} className="flex w-fit items-center justify-around rounded-full gap-2 bg-blue-600 p-2 px-4	text-white shadow-sm hover:bg-rose-500 cursor-pointer ">
                 <span>get early access</span>
                 <svg
                   className="w-6"
@@ -77,14 +77,14 @@ const Home = () => {
         </div>
         <div className='m-auto flex max-w-7xl gap-2 flex-col p-4 relative bottom-14 text-xs'>
           <div className='flex gap-2 items-center'>
-            <a href="/" className="">
-              Pay now & support the project as early adaptor
+            <a href="https://www.linkedin.com/in/sagarjaid/" target='_blank' className="">
+              Pay now & support the project as early adaptor (coming soon)
             </a>
             <span>|</span>
-            <a href="/">
+            <a href="https://www.linkedin.com/in/sagarjaid/" target='_blank'>
               <img src="/linkedin.png" className="w-3" />
             </a>
-            <a href="/">
+            <a href="https://twitter.com/Jaid_Sagar" target='_blank'>
               <img src="/twitter.png" className="w-3" />
             </a>
           </div>
