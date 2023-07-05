@@ -1,98 +1,84 @@
-
 import SEOMeta from '@/components/SEOMeta';
+import React from 'react'
 import Typewriter from 'typewriter-effect';
 
 const Home = () => {
   return (
     <>
       <SEOMeta
-        title="Persnlly - Convert your Linkedin profile to Personal Website"
-        description="Convert your Linkedin profile to Personal Website/blog in 30 seconds."
+        title="Chnglog - Simplifed Changelog & Product Updates "
+        description="Simplify Changelog & Effortlessly Manage your users with Product Updates, New Features, Product Releases"
       />
-      <main className='px-4'>
-        <div className="m-auto flex max-w-7xl items-start pt-10 mdx:pt-20 h-screen">
-          <div className="flex flex-col justify-between gap-6 p-4 w-full">
-            <a href="/">
-              <img src="/persnlly-logo.png" className="w-[100px] mdx:pb-6" />
-            </a>
-            <div className='w-full  mdx:hidden'>
-              <a href="/">
-                <img src="/hero-banner.png" className="w-full" />
-              </a>
+      <div className='flex flex-col items-center bg-gradient-to-t from-slate-100 via-slate-100 to-blue-300 h-screen overflow-hidden'>
+        <main className="flex max-w-5xl gap-6 items-center flex-col w-full">
+          <nav className="flex w-full items-center justify-between px-4 py-5">
+            <img src="/logo.png" className="w-[120px]" />
+            <div className="flex items-center gap-1 justify-around rounded-full bg-black p-1.5 px-4 text-white">
+              <a href="https://tally.so/r/wb9Q86" className='text-sm' >get early access</a>
+              <svg
+                className="w-5"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                />
+              </svg>
             </div>
-            <div className="line flex flex-col text-base font-semibold xs:text-2xl sdm:text-2xl sm:gap-3 md:text-3xl mdx:text-4xl ">
-              <span>Convert your Linkedin profile</span>
-              <div className='flex gap-1'>
-                <span>into a</span>
-                <span className="text-rose-600">
-                  <Typewriter
-                    options={{
-                      strings: [
-                        'personal website',
-                        'personal blog',
-                      ],
-                      autoStart: true,
-                      loop: true,
-                    }}
-                  />
-                </span>
-              </div>
-
+          </nav>
+          <div className='flex flex-col items-center pt-16 text-base font-extrabold xs:text-2xl sdm:text-3xl sm:gap-3 md:text-4xl mdx:text-5xl '>
+            <div>
+              Simplify Changelog & Effortlessly
             </div>
-            <div className=" flex flex-col gap-1 text-xs sm:text-base">
-              <p>✓ Build a website in 30 Seconds</p>
-              <p>✓ Add a custom domain</p>
-              <p>✓ 5+ UI templates to choose from</p>
-              <p>✓ SEO friendly</p>
-              <p>✓ Superfast Blog</p>
-            </div>
-
-            <div className='flex flex-col justify-center gap-1'>
-              <div onClick={() => window.location.href = 'https://tally.so/r/wb9YW6'} className="flex w-fit items-center justify-around rounded-full gap-2 bg-blue-600 p-2 px-4	text-white shadow-sm hover:bg-rose-500 cursor-pointer ">
-                <span>get early access</span>
-                <svg
-                  className="w-6"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth={1.5}
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
-                  />
-                </svg>
-              </div>
-              <span className='pl-5 text-[7px]'>No Spam, Receive email when we go live!</span>
+            <div> Manage your users with</div>
+            <div className="text-rose-600">
+              <Typewriter
+                options={{
+                  strings: [
+                    'Product Updates',
+                    "New Features",
+                    "Product Releases"
+                  ],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
             </div>
           </div>
-          <div className='w-full hidden mdx:block pt-10'>
-            <a href="/">
-              <img src="/hero-banner.png" className="w-full" />
-            </a>
+          <p className="text-center text-xs sm:text-base">Supercharge Your Change Tracking</p>
+          <div className="flex w-fit items-center justify-center rounded-full bg-rose-600 p-2 px-4	text-white shadow-xl hover:bg-rose-700 ">
+            <a href="https://tally.so/r/wb9Q86">get early access</a>
+            <svg
+              className="w-6"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth={1.5}
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+              />
+            </svg>
           </div>
-        </div>
-        <div className='m-auto flex max-w-7xl gap-2 flex-col p-4 relative bottom-14 text-xs'>
-          <div className='flex gap-2 items-center'>
-            <a href="https://www.linkedin.com/in/sagarjaid/" target='_blank' className="">
-              Pay now & support project as early adaptor
-            </a>
-            <span>|</span>
-            <a href="https://www.linkedin.com/in/sagarjaid/" target='_blank'>
-              <img src="/linkedin.png" className="w-3" />
-            </a>
-            <a href="https://twitter.com/Jaid_Sagar" target='_blank'>
-              <img src="/twitter.png" className="w-3" />
-            </a>
+          <div className="flex flex-col items-center gap-1 text-center  text-gray-600 sm:text-base">
+            <span className='text-xs'>✓ No credit card required</span>
+            <span className='text-xs'>✓ No login is required</span>
           </div>
-          {/* <p className='text-[11px] text-gray-600'>Coming soon: Superfast Blog, calendar booking, Offer Services, Email List builder.</p> */}
-        </div>
-      </main >
+        </main>
+        <img src="/chnglog.svg" className="pt-8 object-cover w-full max-w-5xl" />
+      </div>
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
