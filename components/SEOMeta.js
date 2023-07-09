@@ -29,6 +29,8 @@ const SEOMeta = (props) => {
       />
       <link rel="icon" href="https://chnglog.com/favicon.png" />
 
+      <meta name="google-site-verification" content="az9-8Jil-t78pwRV8EulxnRfNRIRsuTnM4F0Y-WOVMs" />
+
     </Head>
   );
 };
